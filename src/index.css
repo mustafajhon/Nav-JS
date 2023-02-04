@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: lightcyan;
+}
+
+nav {
+  background-color: lightskyblue;
+  height: 70px;
+}
+
+.container {
+  max-height: 1100;
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .container ul {
+  display: flex;
+  padding: 10px;
+}
+
+nav .container ul li {
+  margin-left: 50px;
+}
+
+nav .container ul li a {
+  color: aliceblue;
+}
+nav .container ul li:hover {
+  font-weight: bold;
+}
